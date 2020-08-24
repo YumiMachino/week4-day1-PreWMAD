@@ -2,9 +2,11 @@
 
 const conditionalAdding = function(values, condition) {
   // Your code here
+
   let sum = 0;
   for (i = 0; i < values.length; i++) {
     if (condition === "even") {
+      //check if ith array of values are even number
       if (values[i] % 2 === 0) {
         sum += values[i];
       } else {
