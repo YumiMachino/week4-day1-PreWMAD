@@ -2,15 +2,33 @@
 
 const LongestName = function(instructors) {
   // Put your solution here
-  let fullName = instructors.first + instructors.last;
-  return fullName;
+  // console.log(instructors[0].first); //print samuel
+
+  let fullName;
+  let fullNameCount = 0;
+  let theLongest = 0;
+
+  for (i = 0; i < instructors.length; i++) {
+    fullName = instructors[i].first + instructors[i].last; //combine first and last name
+    fullNameCount = fullName.length; //count number of the string
+    if (theLongest > fullNameCount) {
+      theLongest = fullNameCount;
+    } else if (theLongest < fullNameCount) {
+      theLongest = theLongest;
+    }
+    return theLongest;
+  }
 };
 
 console.log(
   LongestName([
+    //instructor[0]
     { first: "Samuel", last: "Sanderson" },
+    //instructor[1]
     { first: "Jeremiah", last: "Web" },
+    //instructor[2]
     { first: "Ophilia", last: "Rich" },
+    //instructor[3]
     { first: "Donald", last: "kant" }
   ])
 );

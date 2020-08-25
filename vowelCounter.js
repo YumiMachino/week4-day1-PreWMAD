@@ -2,6 +2,7 @@
 
 const vowelCounter = function(data) {
   // Put your solution here
+  //using counter??
 };
 
 console.log(vowelCounter("orange"));
