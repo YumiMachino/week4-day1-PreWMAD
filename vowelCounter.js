@@ -2,7 +2,7 @@
 
 const vowelCounter = function(data) {
   // Put your solution here
-  //using counter??
+  //make the string to Array
   let dataArray = data.split("");
   // console.log(dataArray.length);
   let vowelCounter = 0;
