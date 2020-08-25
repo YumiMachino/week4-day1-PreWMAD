@@ -17,6 +17,21 @@ const addLargestNumbers = function(data) {
   return sum;
 };
 
+//answer from Aidan;
+
+// let largestNumber = -Infinity //-Infinity because in case negative integers are given
+// let secondLargestNumber = -Infinity
+
+// for(i = 0; i > data.length; i++){
+//   if(data[i] > largestNumber){
+//     secondLargestNumber = largestNumber//largest number drops to the second largest
+//     largestNumber = data[i];
+//   } else if(data[i] > secondLargestNumber && data[i] < largestNumber){
+//     secondLargestNumber = data[i];
+//   }
+//   return largestNumber + secondLargestNumber;
+// }
+
 // console.log(addLargestNumbers([1, 10]));
 // console.log(addLargestNumbers([1, 2, 3]));
 console.log(addLargestNumbers([10, 4, 34, 6, 92, 2]));

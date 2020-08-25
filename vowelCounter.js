@@ -2,6 +2,7 @@
 
 const vowelCounter = function(data) {
   // Put your solution here
+
   //make the string to Array
   let dataArray = data.split("");
   // console.log(dataArray.length);
@@ -24,6 +25,16 @@ const vowelCounter = function(data) {
   }
   return vowelCounter;
 };
+
+//answer from Aidan;
+let splitWord = data.split("");
+let counter = 0;
+
+for (i = 0; i < splitWord.length; i++) {
+  if ((splitWord[i] === "a", "e", "i", "o", "u")) {
+    console.log(splitWord[i]);
+  }
+}
 
 // console.log(vowelCounter("orange"));
 // console.log(vowelCounter("Cornerstone"));
