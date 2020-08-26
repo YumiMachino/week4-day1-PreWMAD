@@ -36,6 +36,19 @@ const LongestName = function(instructors) {
 //     { first: "Donald", last: "kant" }
 //   ])
 // );
+
+//answer from Aidan;
+// let lengest = '';
+
+// for(i = 0; i < names.length; i++){
+//   let currentName = name[i].first + ' ' + name[i].last
+//   if(currentName.length > longest){
+//     longest = currentName
+//   }
+//
+
+// return longest;
+
 console.log(
   LongestName([
     { first: "Matthew", last: "Ebert" },

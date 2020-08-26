@@ -27,14 +27,17 @@ const vowelCounter = function(data) {
 };
 
 //answer from Aidan;
-let splitWord = data.split("");
-let counter = 0;
+// let splitWord = data.split("");
+// let counter = 0;
+// let conditions = 'aeiouAEIOU'
 
-for (i = 0; i < splitWord.length; i++) {
-  if ((splitWord[i] === "a", "e", "i", "o", "u")) {
-    console.log(splitWord[i]);
-  }
-}
+// for (i = 0; i < splitWord.length; i++) {
+//   if (conditions.includes(splitWord[i]){
+//     counter += 1;
+//   }
+// }
+// return counter;
+// }
 
 // console.log(vowelCounter("orange"));
 // console.log(vowelCounter("Cornerstone"));
